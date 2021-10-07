@@ -2,6 +2,8 @@
 
 Documentation coming soon.
 
+Also a link to the live site.
+
 ## Special Thanks
 
-Rowena and Pat.  
+Rowena and Pat you are awesome.   
