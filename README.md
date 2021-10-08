@@ -31,7 +31,8 @@ Then I began the project following the steps laid out on the Project 0 page on g
 
 ### Lessons Learned
 
-Try. Ask for help. Research and importantly know why each line of code is relevant.
+* Try. Ask for help. Research and importantly know why each line of code is relevant.
+* Adding emoji's for player icons
 
 ### Setup
 
