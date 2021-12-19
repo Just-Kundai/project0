@@ -10,71 +10,30 @@
 
   </head>
 
-   <body class="dark">
-    <div class="pop-up light">
-        <div class="pop-up-input">
-            <label for="py1-name">Player 1 Name: </label>
-            <input type="text" name="py1-name" class="py1-name">
-        </div>
-        <div class="pop-up-input py1-radios">
-            <label for="fire" class="fire-emoji">🔥</label>
-            <input type="radio" value="🔥" name="py1-icons" id="fire1" class="fire-emoji radio" >
-            <label for="ice" class="ice-emoji">🧊</label>
-            <input type="radio" value="🧊" name="py1-icons" id="ice1" class="ice-emoji radio">
+<body>
 
-        </div>
-        <div class="pop-up-input">
-            <label for="py2-name">Player 2 Name: </label>
-            <input type="text" name="py2-name" class="py2-name">
-        </div>
-        <div class="pop-up-input py2-radios">
-            <label for="fire" class="fire-emoji">🔥</label>
-            <input type="radio" value="🔥" name="py2-icons" id="fire2" class="fire-emoji radio">
-            <label for="ice" class="ice-emoji">🧊</label>
-            <input type="radio" value="🧊" name="py2-icons" id="ice2" class="ice-emoji radio">
+  <div class="container">
+       <h1>Tic-Tac-Toe</h1>
+        <div class="play-area">
+           <div id="block_0" class="block"></div>
+           <div id="block_1" class="block"></div>
+           <div id="block_2" class="block"></div>
+           <div id="block_3" class="block"></div>
+           <div id="block_4" class="block"></div>
+           <div id="block_5" class="block"></div>
+           <div id="block_6" class="block"></div>
+           <div id="block_7" class="block"></div>
+           <div id="block_8" class="block"></div>
+  </div>
 
-        </div>
-
-        <div class="pop-up-input">
-            <button class="pop-up-btn" type="submit">Start Game</button>
-        </div>
-   </div>
+       <h2 id="winner"></h2>
+       <button onclick="reset_board()">RESET BOARD</button>
 
 
-    <div class="overlay">
-    <header class="light">
-    <section>
-      <h1 class="game--title">Tic Tac Toe</h1>
-    </header>
-      <div class="players">
-        <section class="accent1">
-          <h3> Player One</h3>
-          <p class="py1-score b-text">0</p>
+  </div>
+  <script src="app.js"></script>
 
-        </section>
-        <section class="accent2">
-          <h3> Player Two</h3>
-          <p class="py2-score b-text">0</p>
 
-        </section>
-      </div>
-      <div class="game-board">
-        </div>
-    </div>
-      <div class="game--container">
-        <div data-cell-index="0" class="cell"></div>
-        <div data-cell-index="1" class="cell"></div>
-        <div data-cell-index="2" class="cell"></div>
-        <div data-cell-index="3" class="cell"></div>
-        <div data-cell-index="4" class="cell"></div>
-        <div data-cell-index="5" class="cell"></div>
-        <div data-cell-index="6" class="cell"></div>
-        <div data-cell-index="7" class="cell"></div>
-        <div data-cell-index="8" class="cell"></div>
-      </div>
-      <h2 class="game--status"></h2>
-      <button class="gameRestart">Restart Game</button>
-    </section>
-  <script src="js/script.js"></script>
-  </body>
+
+</body>
 </html>

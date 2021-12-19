@@ -27,7 +27,6 @@ Then I began the project following the steps laid out on the Project 0 page on g
 
 * Fully functional game
 * Customisable player icons and player names
-* Saves player data
 
 ### Lessons Learned
 
