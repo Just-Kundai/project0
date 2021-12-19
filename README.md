@@ -2,7 +2,7 @@
 
 A simple game app created with HTML, CSS and JavaScript.
 
-See it live at: https://just-kundai.github.io/project0/
+See it live at: https://myrepo-gilt.vercel.app
 
 *  Technologies
 *  Approach
