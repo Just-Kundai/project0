@@ -1,5 +1,5 @@
-const player = "🔥";
-const computer = "🧊";
+const player = "X";
+const computer = "O";
 
 let board_full = false;
 let play_board = ["", "", "", "", "", "", "", "", ""];
